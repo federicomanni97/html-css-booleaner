@@ -20,7 +20,7 @@ header {
 }
 
 .title{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 #article-author{
@@ -55,23 +55,30 @@ header {
     font-size: 20px;
     padding-left: 40px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .table-margin{
-    padding-top: 50px;
     font-size: 20px;
     text-align: left;
+    border-collapse: collapse;
 
 }
 
 .table-head{
     background-color: rgb(78, 160, 255);
     color: white;
+    border-collapse: collapse;
 }
 
 .table-body1{
     background-color: lightblue;
-    
+
+}
+
+.third-table{
+    width: 50%;
+
 }
 
 .table-foot{
