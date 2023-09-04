@@ -1,59 +1,65 @@
 *{
     margin: 0;
     padding: 0;
-    margin-left: 20px;
-    margin-right: 20px;
     box-sizing: border-box;
 }
 
 header {
     height: 180px;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     background-image: url(../img/pattern.png);
-    background-size: auto;
+    background-size: auto; 
     background-color: rgb(78, 160, 255);
 }
-
 
 #logo{
     height: 200px;
     width: 250px;
     padding-top: 100px;
+    margin-left: 15px;
 }
 
 .title{
-    font-size: 70px;
+    font-size: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #article-author{
     color: rgb(78, 160, 255);
-    margin-left: 0;
+
 }
 
 .article-info{
-    font-size: 30px;
+    font-size: 28px;
     color: grey;
+    margin-left: 10px;
 }
 
 .article-date{
     font-size: 20px;
     color: grey;
+    margin-left: 10px;
 }
 
 .tim-image{
     display: inline-block;
     margin-top: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .image-infos{
     font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .article-paragraph{
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .unordered-list{
@@ -61,12 +67,15 @@ header {
     padding-left: 40px;
     margin-top: 30px;
     margin-bottom: 50px;
+    margin-left: 8px;
 }
 
 .table-margin{
     font-size: 20px;
     text-align: left;
     border-collapse: collapse;
+    margin-left: 8px;
+    margin-right: 8px;
 
 }
 
@@ -101,6 +110,7 @@ header {
     margin-top: 20px;
     color: grey;
     font-size: 25px;
+    margin-left: 8px;
 
 }
 
@@ -113,6 +123,7 @@ header {
     width: 300px;
     background-image: url(../img/monitor.jpg);
     background-size: cover;
+    margin-left: 8px;
 }
 
 .footer-img2{
@@ -125,4 +136,5 @@ header {
     background-image: url(../img/graph.jpg);
     background-size: cover;
     margin-bottom: 30px;
+    margin-left: 8px;
 }
