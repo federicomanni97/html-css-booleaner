@@ -124,4 +124,5 @@ header {
     width: 300px;
     background-image: url(../img/graph.jpg);
     background-size: cover;
+    margin-bottom: 30px;
 }
