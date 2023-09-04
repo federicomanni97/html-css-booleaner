@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 180px;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    background-size: auto; 
+    background-color: rgb(78, 160, 255);
+}
+
+#logo{
+    height: 200px;
+    width: 250px;
+    padding-top: 100px;
+    margin-left: 15px;
+}
+
+.title{
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#article-author{
+    color: rgb(78, 160, 255);
+
+}
+
+.article-info{
+    font-size: 28px;
+    color: grey;
+    margin-left: 200px;
+}
+
+.article-date{
+    font-size: 20px;
+    color: grey;
+    margin-left: 200px;
+}
+
+.tim-image{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.image-infos{
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.article-paragraph{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.unordered-list{
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.table-margin{
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.table-head{
+    background-color: rgb(78, 160, 255);
+    color: white;
+    border-collapse: collapse;
+}
+
+.table-body1{
+    background-color: lightblue;
+
+}
+
+.third-table{
+    width: 50%;
+
+}
+
+.table-foot{
+    background-color: lightblue;
+
+}
+
+.underline-yellow{
+    background-color: yellow;
+    margin: 0;
+
+}
+
+.title-footer{
+    margin-top: 20px;
+    color: grey;
+    font-size: 25px;
+    margin-left: 200px;
+
+}
+
+.footer-img1{
+    margin-top: 10px;
+    font-size: 28px;
+    padding: 10px;
+    color: white;
+    height: 250px;
+    width: 300px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-left: 200px;
+}
+
+.footer-img2{
+    margin-top: 10px;
+    font-size: 28px;
+    padding: 10px;
+    color: white;
+    height: 250px;
+    width: 300px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
